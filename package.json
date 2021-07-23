@@ -1,0 +1,17 @@
+{
+  "name": "dev_blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/typography": "^0.4.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+  },
+  "scripts": {
+    "watch": "parcel watch styles/styles.css --out-dir static/styles --no-hmr --no-source-maps"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9",
+    "postcss": "^7"
+  }
+}
