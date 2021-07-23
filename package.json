@@ -4,14 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@tailwindcss/typography": "^0.4.1",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+    "@tailwindcss/typography": "^0.4.1"
   },
   "scripts": {
+    "build": "parcel build styles/styles.css --out-dir static/styles --no-source-maps",
     "watch": "parcel watch styles/styles.css --out-dir static/styles --no-hmr --no-source-maps"
   },
   "devDependencies": {
-    "autoprefixer": "^9",
-    "postcss": "^7"
+    "cssnano": "^5.0.7"
   }
 }
