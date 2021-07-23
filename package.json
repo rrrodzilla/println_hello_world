@@ -4,14 +4,19 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@tailwindcss/typography": "^0.4.1"
+    "@tailwindcss/postcss7-compat": "^2.2.6",
+    "@tailwindcss/typography": "^0.4.1",
+    "postcss-discard-comments": "4.0.2"
   },
   "scripts": {
-    "build": "parcel build styles/styles.css --out-dir static/styles --no-source-maps",
+    "build": "NODE_ENV=production npx tailwindcss -i styles/styles.css -o static/styles/styles.css",
     "watch": "parcel watch styles/styles.css --out-dir static/styles --no-hmr --no-source-maps"
   },
   "devDependencies": {
+    "autoprefixer": "^10.3.1",
     "cssnano": "^5.0.7",
-    "parcel-bundler": "^1.12.5"
+    "parcel-bundler": "^1.12.5",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.6"
   }
 }
