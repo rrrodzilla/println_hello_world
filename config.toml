@@ -16,6 +16,7 @@ highlight_theme = "agola-dark"
 taxonomies = [
     { name = "stacks", feed = true},
     { name = "frameworks", feed = true},
+    { name = "header", feed = false},
 ]
 
 [extra]
