@@ -4,8 +4,8 @@ date = 2021-07-23
 description = "Make your code more expressive, encapsulate validation and enforce context in your code by wrapping primitives and other types in your own tuple structs."
 [taxonomies]
 stacks=["rust"]
-frameworks=["actix-web"]
-header=["TEMPLATE"]
+frameworks=["patterns"]
+header=["DESIGN PATTERN"]
 +++
 
 I started using Actix-web to build an API server for one of my personal projects a few months ago.  Since then, the project code and folder structure has evolved considerably.  In fact, it looks nothing like the example code provided by the Actix-web book once I've added instrumentation, tests of various types and prepared it for deployment to Docker or elsewhere.  
