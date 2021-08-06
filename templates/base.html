@@ -2,18 +2,20 @@
 <html lang="en">
 
 <head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="{{ get_url(path="styles/styles.css") | safe }}"/>
   <meta charset="utf-8">
   <title>println!("Hello, World!")</title>
 </head>
 
-<body class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-  <section>
+<body class="bg-white">
+	<div class="max-w-7xl mx-auto h-screen flex flex-col  sm:px-6 lg:px-8">
+  <section class="flex-grow">
       {% block content %} {% endblock %}
   </section>
 
-<!-- This example requires Tailwind CSS v2.0+ -->
-<footer class="bg-white">
+<footer class="bg-white align-bottom flex-none">
   <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
     <div class="flex justify-center space-x-6 md:order-2">
 
@@ -41,13 +43,12 @@
     </div>
     <div class="mt-8 md:mt-0 md:order-1">
       <p class="text-center text-base text-gray-400">
-        &copy; 2021 Me. All rights reserved.
+        &copy; 2021 rrrodzilla. All rights reserved.
       </p>
     </div>
   </div>
 </footer>
-<!-- This example requires Tailwind CSS v2.0+ -->
-
+	</div>
 </body>
 
 </html>
