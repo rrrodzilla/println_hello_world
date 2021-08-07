@@ -1,7 +1,7 @@
 +++
 title = "Zola + TailwindCSS"
 date = 2021-08-06
-description = "Learn to generate a markdown-powered static blog styled by TailwindCSS quickly and easily with Zola. Or just clone the linked repo to get up and running quickly."
+description = "Learn to generate a markdown-powered static blog styled by TailwindCSS quickly and easily with Zola, a super fast static site generator built in Rust."
 [taxonomies]
 stacks=["rust", "css", "html"]
 frameworks=["tailwindcss", "zola", "jamstack"]
