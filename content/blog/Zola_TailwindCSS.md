@@ -112,6 +112,8 @@ followed by this next command which will build a production version of your site
 ```shell
 zola build
 ```
+### Live Demo
+Want to see a live demo of a site built with Zola and TailwindCSS?  You're looking at it! ;-)
 
 ## Conclusion
 Super quick to set up with Zola, super quick to design with TailwindCSS, super quick to deploy on the static hosting platform of your choice.  Jamstack frameworks abound currently, but Ramstack tools like Zola with tiny learning curves make developing static sites fast and simple. If you have any questions on this post, feel free to hit me up on Twitter.  Enjoy!   
