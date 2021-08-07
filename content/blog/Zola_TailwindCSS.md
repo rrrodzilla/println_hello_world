@@ -110,7 +110,7 @@ Finally, you'll want to open templates/blog-page.html. Then wrap the section tha
 At this point, you should be able to run `yarn watch` in your project root. The site will use the TailwindCSS CLI to generate your stylesheet, and then `zola serve` will generate your static site and display your local dev URL to view it.  Follow the instructions on the TailwindCSS site to experiment with adding styles to your html templates.  Read up on the Zola site to learn how to customize your static site.
 
 ### Deployment
-Have a read of the various [deployment instructions](https://www.getzola.org/documentation/deployment/overview/) for Zola.  Just remember that your production build service or script calls the Tailwind Cli first to generate your production CSS file with:
+Have a read of the various [deployment instructions](https://www.getzola.org/documentation/deployment/overview/) for Zola.  Just remember that your production build service or script should call the Tailwind Cli first to generate your production CSS file with:
 ```fish
 NODE_ENV=production npx tailwindcss -i styles/styles.css -o static/styles/styles.css
 ```
