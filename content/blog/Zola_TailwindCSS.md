@@ -18,7 +18,7 @@ Once you have your site up and running, you'll want to style your pages.  You ca
 ## Preparing your Zola site for TailwindCSS
 
 ### Installing TailwindCSS
-If you followed the getting started instructions for Zola, you should have a project file structure similar to the following:
+If you followed the ["First Steps with Zola"](https://www.getzola.org/documentation/getting-started/overview/#first-steps-with-zola) instructions, you should have a project file structure similar to the following:
 ```fish
 
 /
