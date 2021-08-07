@@ -9,7 +9,7 @@ header=["HOW TO"]
 +++
 ## Introduction
 ### Zola
-If you need to create a no-fuss fast-loading blog quickly, check out [Zola](https://www.getzola.org/). I've used a ton of [Jamstack](https://jamstack.org/generators) frameworks in the past. Zola is relatively lesser well-known than some of the other generators you may have heard of.  But it's precisely the trimmed down feature set getting out of the way that gets you up and running super fast that is the real selling point.  Couple that with the fact that Zola is written in Rust and deployed as a single self-contained binary, which means high-speed generation times. For many projects, you won't need anything more. 
+If you need to create a no-fuss fast-loading blog quickly, check out [Zola](https://www.getzola.org/). Zola is relatively lesser well-known than some of the other generators you may have heard of. But the trimmed down feature set getting you up and running super fast is the real selling point. Add to that the blazing runtime speed of Rust, and you get high-speed generation times for even large sites.  For many projects, you won't need anything more. 
 After [installation](https://www.getzola.org/documentation/getting-started/installation/), the ["First Steps with Zola"](https://www.getzola.org/documentation/getting-started/overview/#first-steps-with-zola) instructions are clear and easy to follow to get a basic markdown-powered blog up and running.
 
 ### TailwindCSS
@@ -116,4 +116,4 @@ zola build
 Want to see a live demo of a site built with Zola and TailwindCSS?  You're looking at it! ;-)
 
 ## Conclusion
-Super quick to set up with Zola, super quick to design with TailwindCSS, super quick to deploy on the static hosting platform of your choice.  Jamstack frameworks abound currently, but Ramstack tools like Zola with tiny learning curves make developing static sites fast and simple. If you have any questions on this post, feel free to hit me up on Twitter.  Enjoy!   
+Super quick to set up with Zola, super quick to design with TailwindCSS, super quick to deploy on the static hosting platform of your choice.  [Jamstack frameworks](https://jamstack.org/generators) abound currently, but Ramstack tools like Zola with tiny learning curves make developing static sites fast and simple. If you have any questions on this post, feel free to hit me up on Twitter.  Enjoy!   
