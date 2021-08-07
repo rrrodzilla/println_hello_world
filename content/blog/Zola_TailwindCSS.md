@@ -111,11 +111,11 @@ At this point, you should be able to run `yarn watch` in your project root. The 
 
 ### Deployment
 Have a read of the various [deployment instructions](https://www.getzola.org/documentation/deployment/overview/) for Zola.  Just remember that your production build service or script calls the Tailwind Cli first to generate your production CSS file with:
-```shell
+```fish
 NODE_ENV=production npx tailwindcss -i styles/styles.css -o static/styles/styles.css
 ```
 followed by this next command which will build a production version of your site to a new public folder.
-```shell
+```fish
 zola build
 ```
 ### Live Demo
