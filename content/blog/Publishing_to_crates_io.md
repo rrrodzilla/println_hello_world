@@ -90,7 +90,7 @@ error: failed to publish to registry
 ```
 Followed by...
 ```fish
-invalid upload request: invalid length 6, expected at most 5 [keywords](#red-circle-keywords)
+invalid upload request: invalid length 6, expected at most 5 keywords
 ```
 Ouch. Ok, I guess you can only have 5 [keywords](#red-circle-keywords). Trimmed my [keywords](#red-circle-keywords) list down and tried a dry-run again.  Again all good.  Now to ship to crates.io! Running `cargo publish` yields:
 
@@ -99,13 +99,13 @@ error: failed to publish to registry
 ```
 ...and...
 ```fish
-invalid upload request: invalid length 6, expected at most 5 [categories](#red-circle-categories)
+invalid upload request: invalid length 6, expected at most 5 categories
 ```
 
 Right.  I probably should have checked that.  Fix and repeat the command after another successful dry run.
 ```fish
-warning: the following are not valid [category](#red-circle-categories) slugs and were ignored...<some [category](#red-circle-categories) names>...
-...Please see https://crates.io/category_slugs for the list of all [category](#red-circle-categories) slugs.
+warning: the following are not valid category slugs and were ignored...<some category names>...
+...Please see https://crates.io/category_slugs for the list of all category slugs.
 ```
 
 Whoops.  This one was only a warning, so the crate was successfully uploaded.
