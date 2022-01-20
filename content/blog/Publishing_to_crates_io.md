@@ -390,7 +390,7 @@ Also not required to be present when publishing; however, if you DO use them, wh
 <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
 </svg>
 <div class="ml-2 md:ml-0">
-Providing more than 5 categories above will generate an error when running <span class="font-bold">cargo publish</span> NOT when executing a <span class="font-bold">--dry-run</span>
+Providing more than 5 categories will generate an error when running <span class="font-bold">cargo publish</span> NOT when executing a <span class="font-bold">--dry-run</span>
 </div>
 </div>
 
@@ -552,7 +552,7 @@ In particular, many thanks goes to @pietroalbini, @tbieniek, and @carols10cents.
 
 ## TLDR
 
-- [Uncover issues early](#then-do-it-again-on-staging) by publishing to [staging](https://staging.crates.io) first
+- [Uncover issues early](#then-do-it-again-on-staging) by publishing to [staging](#then-do-it-again-on-staging) first
 - [Get your manifest file in order and beware of gotchas](#get-your-manifest-file-in-order)
 - Use [cargo-markdown](https://crates.io/crates/cargo-markdown) to put some love into your [readme](#about-that-readme)
 - [Ship it!](#ship-it); [Ship it again](#ship-it-again), and [Uh oh, unship it!](#uh-oh-unship-it)
