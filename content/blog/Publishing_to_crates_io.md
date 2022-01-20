@@ -199,7 +199,7 @@ Now you can test things out without worrying about pushing to the live site, whi
 
 #### Important caveat about staging!
 
-An unfortunate limitation regarding the staging site severely limits its usefulness.  In particular keep the following in mind:
+An unfortunate limitation regarding the staging site severely limits its ease of use.  In particular keep the following in mind:
 
 <div class="text-sm md:text-base bg-yellow-400 rounded-lg p-4 md:p-8 text-gray-900 flex flex-row">
 <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 md:h-12 md:w-12 mr:0 md:mr-8 text-grey-900 bold" viewBox="0 0 20 20" fill="currentColor">
