@@ -210,7 +210,7 @@ Uploading your crate to staging will <span class="font-bold inline-block">fail</
 </div>
 </div>
 
-Given that at the time of this writing, we're **approaching 75 thousand crates** published to the live site, but there are **less than 7 thousand crates** on the staging site, the chances of this impacting you are high.  This makes staging almost useless for anything more than previewing your [readme](#black-circle-readme) file.  
+Given that at the time of this writing, we're **approaching 75 thousand crates** published to the live site, but there are **less than 7 thousand crates** on the staging site, the chances of this impacting you are high.  
 
 Unfortunately, you'll get an error as you are publishing *(without --dry-run)* so you won't even get notified if you have a [keywords](#red-circle-keywords) or [category](#red-circle-categories) error until you get past the `Dependency is hosted on another registry` error.  
 
