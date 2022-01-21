@@ -121,7 +121,7 @@ Argh.  I wish the previous errors had been caught during the dry run.  Now I nee
 
 For my first crate, I go ahead and do that.  Then I did it a few more times after noticing minor formatting issues on the [readme](#black-circle-readme) and in the docs.
 
-After pushing up **v1.06**, I finally have things looking the way I want them to, and the [pathtrim](https://crates.io/crates/pathtrim) crate is successfully published to crates.io.  I wasn't expecting anybody but myself to use the crate, but I was pleasantly surprised to see dozens of downloads over the next few days nonetheless.
+After pushing up **v1.0.6**, I finally have things looking the way I want them to, and the [pathtrim](https://crates.io/crates/pathtrim) crate is successfully published to crates.io.  I wasn't expecting anybody but myself to use the crate, but I was pleasantly surprised to see dozens of downloads over the next few days nonetheless.
 
 <h6 align="right"><a href="#table-of-contents">back to toc</a></h6>
 
