@@ -182,6 +182,7 @@ In addition to signing up at [https://staging.crates.io](https://staging.crates.
 
 Edit or create your `~/.cargo/config` file and add the following entry:
 ```toml
+[registries]
 staging = { index = "https://github.com/rust-lang/staging.crates.io-index" }
 ```
 
