@@ -12,7 +12,7 @@ header=["STEP-BY-STEP GUIDE"]
 
 Hello everyone! Today, I'm going to show you how to create a marketing funnel illustration using LaTeX. LaTeX is a fantastic typesetting system that allows you to create beautiful documents, and by the end of this post, you'll know how to draw a marketing funnel that looks like this:
 
-![Adoption Marketing Funnel](adoption_marketing_funnel.png)
+![Adoption Marketing Funnel]([adoption_marketing_funnel.png](https://user-images.githubusercontent.com/24578097/229216702-7d7a1c50-70ed-4c2d-898f-2a01e0323a5d.png))
 
 ## First Things First: Setting Up
 
